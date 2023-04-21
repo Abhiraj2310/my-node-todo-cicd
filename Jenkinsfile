@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'dev-agent' }
+    agent { label 'ninja' }
     
     stages{
         stage('Code'){
